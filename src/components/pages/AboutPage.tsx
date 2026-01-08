@@ -100,6 +100,10 @@ export function AboutPage() {
         </div>
       </section>
 
+
+      {/* Founder / Lead Juicer */}
+     
+
       {/* Our Values */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">

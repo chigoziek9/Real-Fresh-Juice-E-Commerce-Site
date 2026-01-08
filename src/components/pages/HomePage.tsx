@@ -35,7 +35,7 @@ export function HomePage() {
       flavor: 'Orange',
       title: 'Sunshine in Every Sip',
       description: 'Bursting with vitamin C and natural sweetness, our fresh orange juice is your daily dose of energy and vitality.',
-      image: 'https://images.unsplash.com/photo-1621797350487-c8996f886ab1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHJhd2JlcnJ5JTIwc21vb3RoaWUlMjBkcmlua3xlbnwxfHx8fDE3NjY1OTg5Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: "Roots2.jpg",
       bgColor: '#fa8906',
       gradient: 'from-orange-500 to-orange-600',
     },
@@ -51,17 +51,9 @@ export function HomePage() {
       flavor: 'Strawberry',
       title: 'Berry Bliss',
       description: 'Indulge in the sweet and tangy perfection of our strawberry smoothie, loaded with antioxidants and pure joy.',
-      image: 'https://images.unsplash.com/photo-1621797350487-c8996f886ab1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHJhd2JlcnJ5JTIwc21vb3RoaWUlMjBkcmlua3xlbnwxfHx8fDE3NjY1OTg5Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: "strawberry.jpg",
       bgColor: '#ef4444',
       gradient: 'from-red-400 to-pink-500',
-    },
-    {
-      flavor: 'Apple',
-      title: 'Crisp Refreshment',
-      description: 'Experience the crisp, clean taste of fresh apples in every refreshing sip of our signature apple juice.',
-      image: 'https://images.unsplash.com/photo-1640039269847-f462c3406c8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcHBsZSUyMGp1aWNlJTIwZnJlc2h8ZW58MXx8fHwxNzY2NTk4OTc5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      bgColor: '#79cd47',
-      gradient: 'from-green-400 to-emerald-500',
     },
   ];
 
@@ -197,7 +189,7 @@ export function HomePage() {
                 <motion.img
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.6 }}
-                  src="https://images.unsplash.com/photo-1675106566514-a2e9738f0880?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWlzc2lvbiUyMG9yZ2FuaWN8ZW58MXx8fHwxNzY2NTk4OTgwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src={"Roots1.jpg"}
                   alt="Our Mission"
                   className="w-full h-[400px] object-cover"
                 />
@@ -359,7 +351,7 @@ export function HomePage() {
                 <motion.img
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.6 }}
-                  src="https://images.unsplash.com/photo-1559770692-df92b4573725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMGZhcm1pbmclMjB2aXNpb258ZW58MXx8fHwxNzY2NTk4OTgwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="Roots2.jpg"
                   alt="Our Vision"
                   className="w-full h-[400px] object-cover"
                 />

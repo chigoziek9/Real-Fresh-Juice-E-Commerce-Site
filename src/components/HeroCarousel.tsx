@@ -65,7 +65,7 @@ export function HeroCarousel({
   };
 
   return (
-    <div className="relative h-[700px] overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden">
       <AnimatePresence initial={false} custom={direction} mode="wait">
         <motion.div
           key={currentSlide}
@@ -158,22 +158,23 @@ export function HeroCarousel({
                     whileHover={{ scale: 1.05, rotate: 2 }}
                     transition={{ duration: 0.4 }}
                   >
-                    <div className="relative h-[100px] w-full max-w-md overflow-hidden rounded-3xl shadow-2xl">
+                   <div className="relative h-[320px] md:h-[420px] w-full max-w-md overflow-hidden rounded-3xl shadow-2xl">
+
                       <motion.img
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 0.5 }}
                         src={slides[currentSlide].image}
                         alt={slides[currentSlide].flavor}
-                        className="w-full h-full object-cover"
+                        className="w-full max-h-[50px] h-[50px] object-cover "
                       />
 
                       <motion.div
                         initial={{ opacity: 0 }}
                         whileHover={{ opacity: 1 }}
                         transition={{ duration: 0.3 }}
-                        className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent flex items-end justify-center pb-4"
+                        className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent flex items-end justify-center pb-4 "
                       >
-                        <span className="text-white text-lg">
+                        <span className="text-white text-lg mt-4">
                           {slides[currentSlide].flavor}
                         </span>
                       </motion.div>
