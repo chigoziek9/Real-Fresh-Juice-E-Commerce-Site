@@ -191,7 +191,7 @@ export function HomePage() {
                   transition={{ duration: 0.6 }}
                   src={"Roots1.jpg"}
                   alt="Our Mission"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[400px] object-contain "
                 />
                 <motion.div
                   initial={{ opacity: 0 }}
@@ -353,7 +353,7 @@ export function HomePage() {
                   transition={{ duration: 0.6 }}
                   src="Roots2.jpg"
                   alt="Our Vision"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[400px] object-contain "
                 />
                 <motion.div
                   initial={{ opacity: 0 }}
