@@ -165,7 +165,7 @@ export function HeroCarousel({
                         transition={{ duration: 0.5 }}
                         src={slides[currentSlide].image}
                         alt={slides[currentSlide].flavor}
-                        className="w-full max-h-[50px] h-[50px] object-cover "
+                        className="w-full max-h-[50px] h-[50px] object-contain "
                       />
 
                       <motion.div
