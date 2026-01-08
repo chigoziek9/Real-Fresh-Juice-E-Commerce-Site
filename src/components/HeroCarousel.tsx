@@ -20,7 +20,7 @@ interface HeroCarouselProps {
 
 export function HeroCarousel({
   slides,
-  autoPlayInterval = 5000,
+  autoPlayInterval = 9000,
 }: HeroCarouselProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [direction, setDirection] = useState(0);

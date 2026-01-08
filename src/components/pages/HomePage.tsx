@@ -114,7 +114,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       {/* Hero Carousel Section */}
-      <HeroCarousel slides={heroSlides} autoPlayInterval={5000} />
+      <HeroCarousel slides={heroSlides} autoPlayInterval={9000} />
 
       {/* Why Choose Us */}
       <section className="py-16 bg-gray-50">
